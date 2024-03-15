@@ -15,4 +15,12 @@ let decimal = 3.1416; // Número decimal
 let string = "Texto"; // Cadena de texto
 let boolean = true; // Booleano
 let array = ["Perro", 20, "Gato", 50]; // Array
-let object = {}
+let object = {Edad: 20, Nombre: "Joshua", Telefono: 912345678, Direccion: "Felipe 7458"}; // Object
+let Indefinida; // Indefinida
+let nula = null; // Variable nula
+function sumar(){
+    return 10 + 5;     // Funcion sin parametros
+};  
+
+console.log("Variables: ")
+console.log(sumar)
