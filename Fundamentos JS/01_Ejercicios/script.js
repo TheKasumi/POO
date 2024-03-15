@@ -18,9 +18,10 @@ let array = ["Perro", 20, "Gato", 50]; // Array
 let object = {Edad: 20, Nombre: "Joshua", Telefono: 912345678, Direccion: "Felipe 7458"}; // Object
 let Indefinida; // Indefinida
 let nula = null; // Variable nula
+
 function sumar(){
     return 10 + 5;     // Funcion sin parametros
 };  
 
-console.log("Variables: ")
+console.log("Variables:\nEntero: " + numero + "\nDecimal: " + decimal + "\nString: " + string + "\nBooleano: " + boolean + "\nArray: " + array + "\nObjeto: " + JSON.stringify(object) + "\nIndefinida: " + Indefinida + "\nNula: " + nula + "\nResultado de Funcion: " + sumar())
 console.log(sumar)
