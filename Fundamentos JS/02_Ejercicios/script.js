@@ -32,9 +32,9 @@ function declararVariables() {
     let suma = num1 + num2 + num3;
     let resta = num1 - num3;
     let multiplicacion = num2 * num3;
-    let divi = num1 / 120;
+    let division = num1 / 120;
     
-    alert("la suma es " + suma + "\n la resta es " + resta + "\n la multiplicacion es " + multiplicacion + "\n la division es " + divi );
+    alert(`La suma es: ${suma}\nLa resta es: ${resta}\nLa multiplicacion es: ${multiplicacion}\nLa division es: ${division}`);
     
     // Tu código aquí
     }
