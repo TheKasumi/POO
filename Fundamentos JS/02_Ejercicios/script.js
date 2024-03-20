@@ -7,7 +7,7 @@ function declararVariables() {
     let ahora = 2024;
     let fecha_Nac = 2006;
     let edad = ahora - fecha_Nac;
-    alert("Mi edad es: " + edad);
+    alert(`Mi edad es: ${edad}`);
     // Tu código aquí
     }
     
@@ -16,7 +16,7 @@ function declararVariables() {
     function asignarValores() {
     let var1 = 15;
     let var2 = var1;
-    alert("El valor de Y es: " + var2);
+    alert(`El valor de var2 es: ${var2}`);
     
     // Tu código aquí
     }
@@ -47,6 +47,6 @@ function declararVariables() {
     let n_Casa = "5687";
     let mensaje = "La dirección es: " + direccion + " " + n_Casa;
     let longitud = mensaje.length;
-    alert("Mensaje: " + mensaje +"\nLongitud: " + longitud +"\nAntepenultimo Caracter: " + mensaje[27]);
+    alert(`${mensaje}\nLongitud: ${longitud}\nAntepenultimo Caracter: ${mensaje[27]}`);
     // Tu código aquí
     }
