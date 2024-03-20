@@ -50,3 +50,12 @@ function declararVariables() {
     alert("Mensaje: " + mensaje +"\nLongitud: " + longitud +"\nAntepenultimo Caracter: " + mensaje[27]);
     // Tu código aquí
     }
+    //ejercicio 5 suma de indices
+    function manipulacionIndices(){
+    valor = [1,2,3,4,5,5,6,7];
+    ultimoValor = valor[valor.length -1];
+    penultimoValor = valor[valor.length -2];
+    primerValor = valor[0];
+    Suma = ultimoValor + penultimoValor + primerValor;
+    alert('El resultado de la suma de los indices es: '+ Suma);
+    }
