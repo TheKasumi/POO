@@ -1,13 +1,21 @@
-function identificarMayorEdad()
+function login()
 {
 console.log()
-    let resultado = "";
-    //Identificar si es mayor o menos de edad
-    let edad = prompt("Por favor ingrese su edad: ")
-    if(edad >= 18){
-        resultado = `Es mayor de edad - tiene: <h2>${edad} años</h2>`
-    } else{
-        resultado = `Es menor de edad - tiene: <h2>${edad} años</h2>`
+    let = nombreUsuario = prompt("Ingrese su nombre: ");
+    let = contraseña = prompt("Ingrese la contraseña: ");
+    let result = "";
+    let usuario = "usuario123";
+    let contr = "secreto";
+
+    if (nombreUsuario == usuario && contraseña == contr){
+        result = document.getElementById("lista").innerHTML = "<h2>¡Entraste!</h2>"
     }
-    document.getElementById('listas').innerHTML = resultado;
+    else if( result < n){
+        Result = Document.getElementById("lista").innerHTML = "<h2>Equivicado</h2>"
+        
+    }
+    else{
+        result = `Ingrese un caracter válido`;
+    }
+
 }
