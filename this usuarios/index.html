@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usuario</title>
+  <title>Lista de Nombres</title>
 </head>
 <body>
-    <h1>Escriba el nombre del usuario</h1>
-    
-    <form>
-        <label for="name">Nombre: </label>
-        <input type="text" id="name" name="name">
+  <h1>Lista de Nombres</h1>
 
-        <button type="submint" value="Enviar">Enviar</button>
-    </form>
+  <label for="nombreInput">Ingresa un nombre:</label>
+  <input type="text" id="nombreInput" placeholder="Escribe un nombre">
+  <button id="agregarBtn">Agregar</button>
+
+  <ul id="listaNombres"></ul>
+
+  <script src="script.js"></script>
 </body>
 </html>
