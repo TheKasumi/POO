@@ -1,0 +1,27 @@
+body {
+    margin: 10;
+    padding: 100;
+}
+
+.container {
+    margin: 200px;
+    border: 50px solid orange;
+    padding: 20px;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.border {
+    border: 100px solid blue;
+    padding: 50px;
+}
+
+.padding {
+    padding: 20px;
+    background-color: #b0e0e6;
+}
+
+.content {
+    background-color: #add8e6;
+    padding: 10px;
+}
