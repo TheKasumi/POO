@@ -1,11 +1,18 @@
-function EncontrarMayor(numeros){
-    let Mayor = numeros[0]; 
-
-    for(let i = 1; numeros.lenght; i++){
-        Mayor = numeros[i]
-
+function encontrarMayorMenor(array){
+    //CREACION DE LAS VARIABLES
+    let mayor = array[0];
+    let menor = array[0];
+    //BUCLE FOR XDDDD
+    for(let i = 0; i < array.length; i++){
+        if(array[i] > mayor){
+            mayor = array[i]
+        }
+        else if(array[i] < menor){
+            menor = array[i]
+        }
     }
-    document.getElementById("resultado").innerHTML = Mayor;
-    return 0;
-
-}
+    return array; 
+};
+//MOSTRAR EL RESULTADO
+let resultado = encontrarMayorMenor([3,5,10]);
+alert(resultado);
