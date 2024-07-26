@@ -1,27 +1,19 @@
 body {
-    margin: 10;
-    padding: 100;
+    background-color: transparent;
 }
 
+.exterior{
+    background-color: #D15B19;
+    padding: 100px  ;
+}
 .container {
-    margin: 200px;
-    border: 50px solid orange;
-    padding: 20px;
-    background-color: lightcoral;
-    text-align: center;
+    border: 60px solid #E5A685;
+    padding: 60px solid ;
+
 }
 
 .border {
-    border: 100px solid blue;
-    padding: 50px;
-}
-
-.padding {
-    padding: 20px;
-    background-color: #b0e0e6;
-}
-
-.content {
-    background-color: #add8e6;
-    padding: 10px;
+    background-color:#9FCAE0;
+    border: 60px solid #21d3eb;
+    padding: 80px;
 }
