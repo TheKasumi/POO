@@ -1,24 +1,31 @@
 console.log("page loaded...");
 
-function playVideo(secondaryVideo, textoId) {
+function playVideo(secondaryVideo){
     var mainVideo = document.getElementById("mainVideo");
-    var temp = mainVideo.src;
-    var textoSecundario = document.getElementById(textoId);
-    var textoPrincipal = document.getElementById("texto");
-
-    var tempTexto = textoSecundario.innerText;
-    textoSecundario.innerText = textoPrincipal.innerText;
-    textoPrincipal.innerText = tempTexto;
+    var videoTitle = secondaryVideo.parentElement.querySelector(".video-title").textContent;
+    var principalTitle = document.getElementById("title-principal");
+    
+    var tempVideoSrc = mainVideo.src;
+    var tempTitle = principalTitle.textContent;
     
     mainVideo.src = secondaryVideo.src;
-    mainVideo.play(); 
-    
-    secondaryVideo.src = temp;
-}
-function pauseVideo() {
-    mainVideo.pause(); 
+    mainVideo.play();
+
+    secondaryVideo.src = tempVideoSrc;
+
+    principalTitle.textContent = videoTitle;
+    secondaryVideo.parentElement.querySelector(".video-title").textContent = tempTitle;
 }
 
+function pauseVideo(secondaryVideo){
+    var mainVideo = document.getElementById("mainVideo")
+
+    var tempSrc = secondaryVideo.src;
+
+    secondaryVideo.src = mainVideo.src;
+    mainVideo.src = tempSrc;
+    mainVideo.play();
+}
 
 
 
