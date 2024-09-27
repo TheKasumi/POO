@@ -4,7 +4,6 @@ function playVideo(secondaryVideo){
     video.play();
     var mainVideo = document.getElementById("mainVideo");
 
-
     var tempVideoSrc = mainVideo.src;
     
     mainVideo.src = secondaryVideo.src;
